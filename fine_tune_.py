@@ -136,8 +136,4 @@ print(tokenizer.decode(output[0], skip_special_tokens=True))
 
 
 
-from google.colab import drive
-drive.mount('/content/drive')
-
-!cp -r fine_tuned_model /content/drive/MyDrive/
 
